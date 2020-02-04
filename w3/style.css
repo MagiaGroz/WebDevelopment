@@ -19,7 +19,7 @@ section {
     border:1px;
     color:white;
     width: 50px;
-    height: 0.8cm;
+    height: 0.7cm;
 }
 .main > input {
     width: 300px;
@@ -33,34 +33,17 @@ li {
     text-align: start;
     font-family: Arial, Helvetica, sans-serif;
     right: auto;
-    
+    padding-top: 10px;
 }
 .list {
     padding: 0px;
 }
-.list > input label::before {
-    
-            border-radius: 3px;
-        
-}
-input[type=checkbox]:checked + label:before {
-    
-        content: "\2713";
-    
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
-    
-        font-size: 15px;
-    
-        color: #f3f3f3;
-    
-        text-align: center;
-    
-        line-height: 15px;
-    
-    }
-    
 ul li.checked {
     text-decoration: line-through;
+  }
+ 
+  .close {
+      float: right;
   }
   
 

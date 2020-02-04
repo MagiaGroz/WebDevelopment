@@ -17,12 +17,12 @@ if(input.value!=''){
     
     var checkbox = document.createElement("input");
     checkbox.type='checkbox';
+    checkbox.style.float='left';
     checkbox.onclick = function() {
             var div = this.parentElement;
 
             if(div.className=='checked'){
                 div.className='non';
-                checkbox.style.backgroundColor='#5294e2';
             }
             else {
             div.className = 'checked';
