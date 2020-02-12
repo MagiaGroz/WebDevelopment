@@ -1,0 +1,25 @@
+<h2>Products</h2>
+<a href="whatsapp://send?text=text%20https://valid.url">Share via Whatsapp</a>
+<img src="F:/WEB-PROGRAMMING/WEB DEV/w4/my-app/src/app/images/photo.png">
+<div id=blocks *ngFor="let product of products">
+  <h3>
+    <a href = "{{product.href}}">
+        <img class=images src={{product.src}}> <br>
+      {{ product.name }}
+    </a> 
+   
+  </h3>
+<p *ngIf="product.description">
+    Description: {{ product.description }}
+  </p>
+  <p>
+      Price: {{product.price}}$
+  </p>
+  <p>
+      Rating: {{product.rating}}/5
+  </p>
+ <button  id=tlgbutton>
+      <a id =telegram href="https://telegram.me/share/url?url={{product.href}}&text={{product.name}}">Share telegram</a>
+ </button>
+
+</div>
