@@ -18,6 +18,10 @@
     border-radius: 8px;
 }
 .images{
+    padding-left: 100px;
     width: 200px;
     height: 200px;
+}
+.images:hover{
+        transform: scale(1.2); /* Увеличиваем масштаб */
 }

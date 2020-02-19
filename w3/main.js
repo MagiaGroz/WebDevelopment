@@ -9,9 +9,9 @@ if(input.value!=''){
 
     let el = document.createElement('li');
     el.innerHTML = input.value;
-    //el.style = 'border: 1px solid black';
     el.style.paddingLeft='10px';
-    list.appendChild(el);
+    list.prepend(el)
+    //list.appendChild(el);
     input.value='';
     
     
@@ -33,8 +33,6 @@ if(input.value!=''){
     el.appendChild(checkbox);
 
   var span = document.createElement("SPAN");
- // var txt = document.createTextNode("\u00D7");
-
  var img = document.createElement("IMG");
  img.src = "trash.png"; 
  img.style.width='20px';
@@ -55,7 +53,9 @@ for (i = 0; i < close.length; i++) {
         close[i].onclick = function() {
         var div = this.parentElement;
         div.style.display = "none";
+       
         }
   }
+ 
 
 }
