@@ -20,5 +20,6 @@ class Product(models.Model):
             'name':self.name,
             'description':self.description,
             'price':self.price,
-            'count':self.count
+            'count':self.count,
+            'category_id':self.category_id.__str__()
         }
