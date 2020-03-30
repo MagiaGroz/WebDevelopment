@@ -1,4 +1,4 @@
-<h1> Web Development course based on Angular and Django <h1>
+<h1> Web Development course based on Angular and Django 
 <hr>
 1)virtualenv env
 ***
