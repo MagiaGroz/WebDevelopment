@@ -1,5 +1,5 @@
-h1 Web Development course based on Angular and Django
-***
+<h1> Web Development course based on Angular and Django <h1>
+<hr>
 1)virtualenv env
 ***
 2)env\Scripts\activate.bat
