@@ -28,6 +28,6 @@ def comp_vacancies(request,id):
     vacancies_json = [vacancy.to_json() for vacancy in vacancies_arr]
     return JsonResponse(vacancies_json,safe=False)
 def top_ten(request):
-    vacancies_arr = Vacancy.objects.all().order_by("-salary")
+    vacancies_arr = Vacancy.objects.all().order_by("-salary")[:10]
     vacancies_json = [vacancy.to_json() for vacancy in vacancies_arr]
     return JsonResponse(vacancies_json,safe=False)
