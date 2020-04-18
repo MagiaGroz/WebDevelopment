@@ -1,6 +1,6 @@
 @echo off
 
-set "VIRTUAL_ENV=F:\WEB-PROGRAMMING\WEB DEV\w13\env"
+set "VIRTUAL_ENV=F:\WEB-PROGRAMMING\WEB DEV\w10\env"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"

@@ -28,7 +28,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"F:\WEB-PROGRAMMING\WEB DEV\w13\env"
+$VIRTUAL_ENV = r"F:\WEB-PROGRAMMING\WEB DEV\w10\env"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]
